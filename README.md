@@ -1,6 +1,6 @@
 # LMD crop
 
-Log of LMD overview image cropping
+Log of LMD overview image cropping. Images, output csv and adjustment arguments are stored in Airtable (Micro > Cryosection > LMDCrop).
 
 ## 2025-03-17
 
