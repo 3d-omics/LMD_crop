@@ -9,11 +9,14 @@ Log of LMD overview image cropping. Images, output csv and adjustment arguments 
 lmdmap -n G121eI104C -i G121eI104_pre.jpg -t G121eI104C.csv -o G121eI104C.jpg -m G121eI104C_marked.jpg
 lmdmap -n G121eI104C -i G121eI104_pre.jpg -x -20 -t G121eI104C.csv -o G121eI104C.jpg -m G121eI104C_marked.jpg
 ```
+> [!WARNING]  
+>No postcut
 
 ### G121eI104A
 ```{sh}
 lmdmap -n G121eI104A -i G121eI104_post.jpg -t G121eI104A.csv -o G121eI104A.jpg -m G121eI104A_marked.jpg
 ```
+> [!CAUTION]
 >Complete offset (image flipped?)
 
 ### G103bO202C
@@ -57,6 +60,7 @@ lmdmap -n G121eO302A -i G121eO302_pre.jpg -x -100 -t G121eO302A.csv -o G121eO302
 lmdmap -n G103bO201C -i G103bO201_post.jpg -t G103bO201C.csv -o G103bO201C.jpg -m G103bO201C_marked.jpg
 lmdmap -n G103bO201C -i G103bO201_post.jpg -x -119 -t G103bO201C.csv -o G103bO201C.jpg -m G103bO201C_marked.jpg
 ```
+> [!CAUTION]
 >TOO BIG DISTORTION TO CORRECT
 
 ### G103bO201B
@@ -64,6 +68,7 @@ lmdmap -n G103bO201C -i G103bO201_post.jpg -x -119 -t G103bO201C.csv -o G103bO20
 lmdmap -n G103bO201B -i G103bO201_post.jpg -t G103bO201B.csv -o G103bO201B.jpg -m G103bO201B_marked.jpg
 lmdmap -n G103bO201B -i G103bO201_post.jpg -x -105 -y 18 -t G103bO201B.csv -o G103bO201B.jpg -m G103bO201B_marked.jpg
 ```
+> [!CAUTION]
 >TOO BIG DISTORTION TO CORRECT
 
 ### G103bO201A
@@ -91,7 +96,8 @@ lmdmap -n G103bI301A -i G103bI301_pre.jpg -x -82 -w 5 -t G103bI301A.csv -o G103b
 ```{sh}
 lmdmap -n G121eI103B -i G121eI103_post.jpg -t G121eI103B.csv -o G121eI103B.jpg -m G121eI103B_marked.jpg
 ```
->COORDINATE LOGGING ERROR. PROBABLY MEMBRANE CONTROLS ENTERED AS POSSITIVE
+> [!CAUTION]
+>COORDINATE LOGGING ERROR. PROBABLY MEMBRANE CONTROLS ENTERED AS POSITIVE
 
 ### G121eI103A
 ```{sh}
